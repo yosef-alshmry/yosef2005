@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر يوسف الشمري للخدمات الرقمية</title>
+    <meta name="description" content="متجر خدمات رقمية متطور يربط العميل مباشرة بصاحب الخدمة عبر الواتساب">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=Tajawal:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-app">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="navbar-content">
+                <h1 class="navbar-title">
+                    <span class="text-red">يوسف</span> الشمري
+                </h1>
+                <p class="navbar-subtitle">متجر الخدمات الرقمية المتطور</p>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h2 class="hero-title">
+                    <span class="text-red">خدمات رقمية</span> متطورة
+                </h2>
+                <p class="hero-description">
+                    متجر متخصص في تقديم أفضل الخدمات الرقمية مع ربط مباشر بصاحب الخدمة عبر الواتساب
+                </p>
+                <button class="btn btn-primary" onclick="scrollToSection('subscriptions')">
+                    <span>ابدأ الآن</span>
+                    <span class="icon">💻</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Premium Subscriptions -->
+        <section class="section" id="subscriptions">
+            <div class="section-header">
+                <h3 class="section-title">
+                    <span class="text-red">الاشتراكات</span> المميزة
+                </h3>
+            </div>
+            <div class="grid grid-2">
+                <!-- Netflix -->
+                <div class="service-card">
+                    <div class="card-image">
+                        <img src="images/netflix.png" alt="Netflix">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-icon">🎬</div>
+                        <h4 class="card-title">Netflix</h4>
+                        <p class="card-description">اشتراك نتفلكس غير محدود</p>
+                        <button class="btn btn-whatsapp" onclick="openWhatsApp('أهلاً يوسف الشمري، أريد الاستفسار عن خدمة Netflix')">
+                            <span class="icon">💬</span>
+                            <span>طلب عبر واتساب</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- CapCut Pro -->
+                <div class="service-card">
+                    <div class="card-image">
+                        <img src="images/capcut.jpg" alt="CapCut Pro">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-icon">✂️</div>
+                        <h4 class="card-title">CapCut Pro</h4>
+                        <p class="card-description">تطبيق تحرير الفيديو الاحترافي</p>
+                        <button class="btn btn-whatsapp" onclick="openWhatsApp('أهلاً يوسف الشمري، أريد الاستفسار عن خدمة CapCut Pro')">
+                            <span class="icon">💬</span>
+                            <span>طلب عبر واتساب</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Growth Services -->
+        <section class="section">
+            <div class="section-header">
+                <h3 class="section-title">
+                    <span class="text-red">خدمات</span> السوشيال ميديا
+                </h3>
+            </div>
+            <div class="grid grid-4">
+                <!-- Followers -->
+                <div class="service-card">
+                    <div class="card-content">
+                        <div class="card-icon">🚀</div>
+                        <h4 class="card-title">متابعين</h4>
+                        <p class="card-description">زيادة متابعين حقيقيين</p>
+                        <div class="options">
+                            <span class="option-badge">1K - 10K</span>
+                        </div>
+                        <button class="btn btn-whatsapp" onclick="openWhatsApp('أهلاً يوسف الشمري، أريد الاستفسار عن خدمة زيادة المتابعين')">
+                            <span class="icon">💬</span>
+                            <span>طلب عبر واتساب</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Likes -->
+                <div class="service-card">
+                    <div class="card-content">
+                        <div class="card-icon">❤️</div>
+                        <h4 class="card-title">لايكات</h4>
+                        <p class="card-description">زيادة لايكات للمنشورات</p>
+                        <div class="options">
+                            <span class="option-badge">10K - 100K</span>
+                        </div>
+                        <button class="btn btn-whatsapp" onclick="openWhatsApp('أهلاً يوسف الشمري، أريد الاستفسار عن خدمة زيادة اللايكات')">
+                            <span class="icon">💬</span>
+                            <span>طلب عبر واتساب</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Views -->
+                <div class="service-card">
+                    <div class="card-content">
+                        <div class="card-icon">📊</div>
+                        <h4 class="card-title">مشاهدات</h4>
+                        <p class="card-description">زيادة مشاهدات الفيديوهات</p>
+                        <div class="options">
+                            <span class="option-badge">10K - 100K</span>
+                        </div>
+                        <button class="btn btn-whatsapp" onclick="openWhatsApp('أهلاً يوسف الشمري، أريد الاستفسار عن خدمة زيادة المشاهدات')">
+                            <span class="icon">💬</span>
+                            <span>طلب عبر واتساب</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Comments -->
+                <div class="service-card">
+                    <div class="card-content">
+                        <div class="card-icon">💬</div>
+                        <h4 class="card-title">تعليقات</h4>
+                        <p class="card-description">تعليقات عربية أو أجنبية</p>
+                        <div class="options">
+                            <span class="option-badge">عربي / أجنبي</span>
+                        </div>
+                        <button class="btn btn-whatsapp" onclick="openWhatsApp('أهلاً يوسف الشمري، أريد الاستفسار عن خدمة التعليقات')">
+                            <span class="icon">💬</span>
+                            <span>طلب عبر واتساب</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Premium Usernames -->
+        <section class="section premium-usernames">
+            <div class="premium-card">
+                <div class="premium-icon">👑</div>
+                <h3 class="premium-title">
+                    <span class="text-red">سوق</span> اليوزرات المميزة
+                </h3>
+                <p class="premium-description">
+                    يوزرات رباعية وثلاثية نادرة جداً - لعرض قائمة اليوزرات المتوفرة حالياً وحجز يوزرك المفضل
+                </p>
+                <button class="btn btn-primary" onclick="openWhatsApp('أهلاً يوسف الشمري، أريد الاستفسار عن سوق اليوزرات المميزة')">
+                    تواصل واتساب
+                </button>
+            </div>
+        </section>
+
+        <!-- Account Recovery -->
+        <section class="section">
+            <div class="section-header">
+                <h3 class="section-title">
+                    <span class="text-red">فك</span> الحسابات
+                </h3>
+            </div>
+            <div class="grid grid-2">
+                <!-- Apple Recovery -->
+                <div class="service-card">
+                    <div class="card-content">
+                        <div class="card-icon">🔒</div>
+                        <h4 class="card-title">فك حسابات Apple</h4>
+                        <p class="card-description">فك حسابات آبل المقفلة</p>
+                        <button class="btn btn-whatsapp" onclick="openWhatsApp('أهلاً يوسف الشمري، أريد الاستفسار عن خدمة فك حسابات Apple')">
+                            <span class="icon">💬</span>
+                            <span>طلب عبر واتساب</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Final Logout -->
+                <div class="service-card">
+                    <div class="card-content">
+                        <div class="card-icon">🚪</div>
+                        <h4 class="card-title">فك حسابات نهائي</h4>
+                        <p class="card-description">تسجيل الخروج النهائي من الحسابات</p>
+                        <button class="btn btn-whatsapp" onclick="openWhatsApp('أهلاً يوسف الشمري، أريد الاستفسار عن خدمة فك الحسابات النهائي')">
+                            <span class="icon">💬</span>
+                            <span>طلب عبر واتساب</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>© 2026 يوسف الشمري - جميع الحقوق محفوظة</p>
+            <p class="footer-subtitle">متجر خدمات رقمية متطور مع ربط مباشر عبر الواتساب</p>
+        </footer>
+    </div>
+
+    <!-- Floating WhatsApp Button -->
+    <button class="floating-whatsapp" onclick="openWhatsApp('السلام عليكم، أهلاً يوسف الشمري 👋')" title="تواصل عبر واتساب">
+        💬
+    </button>
+
+    <script>
+        const PHONE_NUMBER = '9647882992005';
+
+        function openWhatsApp(message) {
+            const encodedMessage = encodeURIComponent(message);
+            const whatsappUrl = `https://wa.me/${PHONE_NUMBER}?text=${encodedMessage}`;
+            window.open(whatsappUrl, '_blank');
+        }
+
+        function scrollToSection(sectionId) {
+            const element = document.getElementById(sectionId);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    </script>
+</body>
+</html>
